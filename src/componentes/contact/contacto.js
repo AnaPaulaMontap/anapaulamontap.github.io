@@ -29,8 +29,9 @@ class Contacto extends Component{
 		}
     render (){
     return(  
-      <div className="panelContact" ref={ div => this.content = div }>  
+      <div className="panelContact">  
       <span className="panelFirstBg" ref={ span => this.firstBg = span}></span> 
+      <div ref={ div => this.content = div }></div>
        <div className="contactarse"  ref={ div => this.feature = div }>         
            <h2 className="titulo">Contacto</h2>     
            <p className="textoContact" >Para seguir conociendo mi trabajo ó contactarse conmigo</p>            
