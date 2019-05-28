@@ -78,7 +78,7 @@
 }
 
 .panel-left {
-  float: left;
+   float: left;
 	width: 40%;
 	height: 100%;
 	text-align: right;	
@@ -88,11 +88,11 @@
   }
   
 .panel-right {
-  float: left;
+  	float: left;
 	width: 60%;
 	height: 100%;
-  color: #ffccff;
-  text-align: left;
+  	color: #ffccff;
+  	text-align: left;
   }
 
 .panel {
@@ -123,7 +123,7 @@
 h2.panel-header,
 	p.panel-info {
 		margin: 0;
-		padding: 1.3rem 3.5rem;
+		padding: 1.3rem 3.5rem; 
 	}
 	h2.panel-header {
 		padding-top: 2em;
@@ -137,13 +137,15 @@ h2.panel-header,
 	}
 
 	p.panel-info {
-		font-size: 1.2rem;
-		line-height: 1.8em;
+		font-size: 1rem;
+		text-align: justify;
+		text-indent: 2em; 
+		/* line-height: 1.8em; */
 		color: #fff;
 	}
 
-	button.panel-button {
-		margin: 1.3rem 3.5rem;
+	.panel-button {
+		margin: 1rem 1rem;
 		padding: 0.8em 1.3em;
 		background: none;
 		border: 1px solid;
@@ -153,13 +155,16 @@ h2.panel-header,
 		font-weight: 700;
 		text-transform: uppercase;
 		transition: box-shadow 0.5s ease-in-out, color 0.5s ease-in-out;
+		text-decoration: none;
+		justify-content: center;
+		text-align: justify !important;
 		
 	}
-	button.panel-button:hover {
+	.panel-button:hover {
 		box-shadow: inset 0 0 1.5em 1.5em #fff;
 		color: #001c1b
 	}
-	button.panel-button:focus {
+	.panel-button:focus {
 		outline: none;
 	}
   
@@ -170,5 +175,45 @@ h2.panel-header,
 	}
 	100% {
 		opacity: 1;
+	}
+}
+@media screen and (max-width: 760px) {
+	.panel-right {
+		float: left;
+		width: 100%;
+		height: 45vh;
+		}
+	.panel-left {
+		float: left;
+		width: 100%;
+		height: 55vh;
+		}
+	p.panel-info {
+		font-size: 5vmin;
+		padding: 5%
+		}
+	h2.panel-header{
+		padding: 2%;
+		margin-top: 15%
+	}
+	.panel-button {
+		margin:2%;
+		padding: 2%;	
+	}
+	.panel-buttons{
+		text-align: center;
+		align-items: center;
+	}
+	.imagenPanel{
+		margin-top: 5%;
+	}
+	.selectors {
+		position: absolute;
+		bottom: 0 !important;
+		top: 90vmax;
+		width: 100%;
+		height: 40px;
+		display: flex;
+		flex-direction: row;		
 	}
 }

@@ -50,3 +50,27 @@
     transform: scaleX(0);
     background-color:  #204e4a;
 }
+
+
+@media screen and (max-width: 760px) {
+
+    .contactarse{
+        margin-top: 50%;    
+        position: absolute;
+        top:0;
+        bottom: 0;
+    }
+    .footer{
+        position: absolute;
+        bottom: 2vmax;
+        width: 95%;
+        text-align: center;    
+    }
+    .footerText{
+        text-align: center;
+    }
+    .titulo{
+        margin-right: 10%;
+    }
+
+}

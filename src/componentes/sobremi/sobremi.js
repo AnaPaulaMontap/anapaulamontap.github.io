@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import  './sobremi.css';
 import { TimelineLite} from "gsap";
 import yo from './yo.png'
+import yoMobile from './yomobile.png'
 
 
   
@@ -34,11 +35,12 @@ class SobreMi extends Component{
         <span className="first-bg" ref={ span => this.firstBg = span}></span> 
         <div className="SplitPane-left" ref={ div => this.content = div }>
           <img alt="mifoto" src={yo} className="foto"ref={ img => this.feature = img }/> 
+          <img alt="mifoto" src={yoMobile} className="fotoMovil"ref={ img => this.feature = img }/> 
         </div>
         <div className="SplitPane-right">
         <p className="biografy"  ref={ p => this.description = p }>
           <h1 className="titulo">Hola!</h1>
-          <p className='parrafo' >Mi nombre es Ana Paula Monsalve, soy egresada de la septima generación de Laboratoria como FrontEnd Developer</p>
+          <p className='parrafo' >Mi nombre es Ana Paula Monsalve, egresada de la septima generación de Laboratoria como Front-End Developer</p>
           <p className='parrafo'>Apasionada y curiosa por naturaleza, la tecnología me presentó una oportunidad de desarrollar proyectos enfocada en las personas, con aprendendizaje constante y trabajo en equipo dado lo enriquesedor de nuevas perspectivas y desafíos. </p>
           <h3 className="skills">Skills</h3>
           <div className='icons'>

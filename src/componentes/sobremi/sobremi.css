@@ -100,24 +100,77 @@
   background-color:  #204e4a;
 }
 
+.fotoMovil{
+  display: none;
+}
+.saltodelinea{
+  display: none;
+}
 
 
-
-
-  /* @media (max-width: 1000px) {
+   @media (max-width: 760px) {
   .SplitPane {
       flex-direction: column;
       flex-wrap: wrap;
+      height: 100vh;
     }
   .SplitPane-left {
       float: left;
       width: 100%;
-      height: 50%;
+      height: 10vh;
   }
   .SplitPane-right {
     float: left;
     width: 100%;
-    height: 50%;
-    color: #0b4242;
+    height: 80vh;
+    color: white;
+    margin-top: 20%;
   }
-} */
+  .foto{
+    display: none;
+  } 
+  .fotoMovil{
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 6vmax;
+    right: 6vmax;
+  }
+  .icons{
+    width: 90%;
+    margin-bottom: 5vmax;
+  }
+
+  .biografy{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 6%;
+    display: block;
+}
+.parrafo{
+  text-indent: 2em; 
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  text-align: justify;
+  font-size: 5vmin;
+}
+
+.boton{
+  border: 1px solid #ffccff;
+  color: #fcfcfc;
+  background: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 2%; 
+  text-decoration: none;
+  text-align: center;
+  font-weight: bolder
+}
+.titulo{
+  text-indent: 5vmax; 
+}
+} 

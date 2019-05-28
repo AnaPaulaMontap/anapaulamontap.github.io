@@ -14,6 +14,7 @@
     "npm": "^6.9.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-responsive-ui": "^0.14.139",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.0.5"
   },

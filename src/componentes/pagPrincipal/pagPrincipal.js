@@ -30,9 +30,7 @@ class PagPrincipal extends Component {
 	}
 
 	render(){
-		return <div className="container">								
-					
-
+		return <div className="container">				
                     <p className="text"> 
                     <span className="text__first">
                     <span className="text__word1" ref={ span => this.word1 = span }> Ana Paula Monsalve Tapia</span>

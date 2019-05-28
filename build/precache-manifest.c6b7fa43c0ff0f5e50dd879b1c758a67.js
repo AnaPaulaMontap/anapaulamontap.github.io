@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ae70edeec6637ea62332",
+    "revision": "846ec553c055b379922d",
     "url": "/static/css/main.01766adc.chunk.css"
   },
   {
-    "revision": "ae70edeec6637ea62332",
-    "url": "/static/js/main.ae70edee.chunk.js"
+    "revision": "846ec553c055b379922d",
+    "url": "/static/js/main.846ec553.chunk.js"
   },
   {
     "revision": "b04fcf0433455235d0d0",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/static/media/Cv.- AnaPaulaMonsalveTapia(1).92382695.pdf"
   },
   {
-    "revision": "48d05363734cdfab3d6500fb5b68aca7",
+    "revision": "d6d10265644a1b981765a2764c9be246",
     "url": "/index.html"
   }
 ];

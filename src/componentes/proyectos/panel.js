@@ -25,11 +25,13 @@ class Panel extends React.Component {
 		return (						
 			<aside className="panel">	
 			<span className="panelfirst-bg" ref={ span => this.firstBg = span}></span> 		
-		   		<div className="panel-left" ref={ div => this.content = div }>		   
+		   	<div className="panel-left" ref={ div => this.content = div }>		   
 				<h2 className="panel-header">{this.props.data.header}</h2>
 				<p className="panel-info">{this.props.data.body}</p>
-				<button className="panel-button">Conocer Más</button>
-				<button className="panel-button">Ver Demo</button>						 
+				<div className="panel-buttons">
+				<a href={this.props.data.moreInfo} className="panel-button">Conocer Más</a>
+				<a href={this.props.data.demo} className="panel-button">Ver Demo</a>	
+				</div>					 
 		   </div>
 		   <div className="panel-right">
 		   <img src={this.props.images} alt="proyecto" className="imagenPanel" ref={ img => this.feature = img}/>

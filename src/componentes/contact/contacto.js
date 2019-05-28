@@ -41,7 +41,7 @@ class Contacto extends Component{
            <a href={CV} download = "CV_AnaPaulaMontap "className="iconFile"><FontAwesomeIcon  icon='file-download'/></a>
        </div>
        <div className="footer">
-        <span>AnaPaulaMontap © - 2019 - Laboratoria Chile</span>
+        <span className="footerText">AnaPaulaMontap © - 2019 - Laboratoria Chile</span>
         </div>
     </div> 
     )

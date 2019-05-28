@@ -1,16 +1,23 @@
-.logoHome {
+.headerNav{
+    width: 100%;
     position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+.logoHome {
     top: 0;
     left: 0;
     color: white;
     background: none;
-    z-index: 3;
+    z-index: 1000;
+    
 }
 
 .logo {
-    background-image: url('./../../dark-green-glow-29241-1920x1080\(1\).jpg');
-    width: 50%;
+    width: 170px;
+    z-index: 1000;
     padding: 1%;
+    background-image: url('./../../dark-green-glow-29241-1920x1080\(1\).jpg');
 }
 
 .about, .proyect, .contact {
@@ -22,7 +29,7 @@
     /* background-image: url('./../../dark-green-glow-29241-1920x1080\(1\).jpg'); */
     text-shadow: 5px 5px 5px #000;
     text-decoration: none;
-
+    margin-top: 2%;
 }
 .about {
     margin-right: 27%;
@@ -38,4 +45,39 @@
 .about:hover, .proyect:hover, .contact:hover{
     font-weight: bolder;
     border-bottom: 2px solid white;
+}
+
+.mobileNavAbout, .mobileNavProject, .mobileNavContact{
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+    .logo {
+        position: relative;
+        width: 100px;
+        padding: 1%;
+    }
+    .mobileNavAbout, .mobileNavProject, .mobileNavContact{
+        display: inline-block;
+        font-size: 6vmin;
+        text-decoration: none;
+        color: white; 
+        padding: 2%;
+        position: absolute;
+        top: 1.5%;
+        z-index: 10000
+    }
+    .about, .proyect, .contact {
+        display: none;
+    }
+    .mobileNavAbout{
+        left: 55%;
+    }
+    .mobileNavProject{
+        left: 70%;
+    }
+    .mobileNavContact{
+        left: 85%;
+    }
+
 }
