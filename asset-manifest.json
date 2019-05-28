@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.7ce6778e.chunk.css",
-  "main.js": "/static/js/main.985a01e4.chunk.js",
-  "main.js.map": "/static/js/main.985a01e4.chunk.js.map",
+  "main.js": "/static/js/main.5dd07843.chunk.js",
+  "main.js.map": "/static/js/main.5dd07843.chunk.js.map",
   "static/js/1.b4567435.chunk.js": "/static/js/1.b4567435.chunk.js",
   "static/js/1.b4567435.chunk.js.map": "/static/js/1.b4567435.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -9,9 +9,9 @@
   "static/media/navbar.css": "/static/media/dark-green-glow-29241-1920x1080(1).18d40436.jpg",
   "static/media/yo.png": "/static/media/yo.4b9b28e5.png",
   "static/media/yomobile.png": "/static/media/yomobile.7faf8a3b.png",
-  "static/media/Cv.- AnaPaulaMonsalveTapia(1).pdf": "/static/media/Cv.- AnaPaulaMonsalveTapia(1).92382695.pdf",
+  "static/media/AnaPaula_Monsalve_Front(1).pdf": "/static/media/AnaPaula_Monsalve_Front(1).dc5d3cfa.pdf",
   "static/css/main.7ce6778e.chunk.css.map": "/static/css/main.7ce6778e.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.717f5081bc81f583f22aba245e2e38a1.js": "/precache-manifest.717f5081bc81f583f22aba245e2e38a1.js",
+  "precache-manifest.f38548981c2a5f58239eadea9700abec.js": "/precache-manifest.f38548981c2a5f58239eadea9700abec.js",
   "service-worker.js": "/service-worker.js"
 }
