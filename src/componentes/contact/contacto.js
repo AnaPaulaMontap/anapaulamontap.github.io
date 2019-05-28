@@ -5,7 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeOpenText, faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import { TimelineLite} from "gsap";
-import CV from './Cv.- AnaPaulaMonsalveTapia(1).pdf'
+import CV from './AnaPaula_Monsalve_Front(1).pdf'
 
 library.add(fab, faEnvelopeOpenText , faFileDownload)
 
