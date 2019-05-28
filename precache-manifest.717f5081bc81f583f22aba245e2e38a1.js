@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "846ec553c055b379922d",
-    "url": "/static/css/main.01766adc.chunk.css"
+    "revision": "985a01e4d4e0d444e231",
+    "url": "/static/css/main.7ce6778e.chunk.css"
   },
   {
-    "revision": "846ec553c055b379922d",
-    "url": "/static/js/main.846ec553.chunk.js"
+    "revision": "985a01e4d4e0d444e231",
+    "url": "/static/js/main.985a01e4.chunk.js"
   },
   {
-    "revision": "b04fcf0433455235d0d0",
-    "url": "/static/js/1.b04fcf04.chunk.js"
+    "revision": "b45674353cd19f2110e8",
+    "url": "/static/js/1.b4567435.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,11 +24,15 @@ self.__precacheManifest = [
     "url": "/static/media/yo.4b9b28e5.png"
   },
   {
+    "revision": "7faf8a3b915768ebe0c73bdcc74c97f3",
+    "url": "/static/media/yomobile.7faf8a3b.png"
+  },
+  {
     "revision": "923826950e4c5145693abf32dfdd3514",
     "url": "/static/media/Cv.- AnaPaulaMonsalveTapia(1).92382695.pdf"
   },
   {
-    "revision": "d6d10265644a1b981765a2764c9be246",
+    "revision": "7c217075c10a4938fb249ffdec450b57",
     "url": "/index.html"
   }
 ];
